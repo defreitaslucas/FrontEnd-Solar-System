@@ -24,7 +24,7 @@ class MissionCard extends React.Component {
 }
 
 MissionCard.propTypes = {
-  year: PropTypes.number.isRequired,
+  year: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
   destination: PropTypes.string.isRequired,
